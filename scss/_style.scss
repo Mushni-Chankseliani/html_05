@@ -1,0 +1,69 @@
+.s-1 {
+    padding: 100px 0;
+
+    & > .container {
+
+        @include custom-width($main-container-size);
+        margin: 0 auto;
+
+
+        & > .form-wrapper {
+            display: flex;
+            justify-content: center;
+
+            & > form {
+                @include custom-width(300px);
+                // max-width: 300px;
+                // width: 100%;
+                & > .form-element {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 30px;
+
+                    & > label {
+                        margin-bottom: 15px;
+                        font-size: 22px;
+                        color: $label-color;
+                    }
+
+                    & > input {
+                        padding: 15px;
+                        outline: none;
+                        border: 1px solid rgb(155, 208, 255);
+                        border-radius: 8px;
+                        caret-color: $primay-color;
+                    }
+                }
+
+                & > .form-actions {
+                    display: flex;
+
+                    & > button {
+                        @extend %button;
+                        
+                        &.reset {
+                            background-color: #ca5100;
+                            margin-right: 20px;
+                        }
+
+                        &.submit {
+                            background-color: $primay-color;
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 320px) {
+        & > .container {
+            width: 90%;
+            & > .form-wrapper {
+                & > form {
+                    max-width: 260px;
+                }
+            }
+        }
+    }
+
+}

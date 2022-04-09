@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-actions > button {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  letter-spacing: 1.5px;
+}
+
+.s-1 {
+  padding: 100px 0;
+}
+
+.s-1 > .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.s-1 > .container > .form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.s-1 > .container > .form-wrapper > form {
+  max-width: 300px;
+  width: 100%;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-element > label {
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: #1b0036;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-element > input {
+  padding: 15px;
+  outline: none;
+  border: 1px solid #9bd0ff;
+  border-radius: 8px;
+  caret-color: #b700ff;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-actions > button.reset {
+  background-color: #ca5100;
+  margin-right: 20px;
+}
+
+.s-1 > .container > .form-wrapper > form > .form-actions > button.submit {
+  background-color: #b700ff;
+}
+
+@media (max-width: 320px) {
+  .s-1 > .container {
+    width: 90%;
+  }
+  .s-1 > .container > .form-wrapper > form {
+    max-width: 260px;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/*# sourceMappingURL=global.css.map */
